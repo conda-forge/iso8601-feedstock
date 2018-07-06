@@ -14,14 +14,15 @@ Summary: Simple module to parse ISO 8601 dates
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/iso8601-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/iso8601-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/iso8601-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/iso8601-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/iso8601-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/iso8601-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/iso8601-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/iso8601-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/iso8601/badges/version.svg)](https://anaconda.org/conda-forge/iso8601)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/iso8601/badges/downloads.svg)](https://anaconda.org/conda-forge/iso8601)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-iso8601-green.svg)](https://anaconda.org/conda-forge/iso8601) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/iso8601.svg)](https://anaconda.org/conda-forge/iso8601) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/iso8601.svg)](https://anaconda.org/conda-forge/iso8601) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/iso8601.svg)](https://anaconda.org/conda-forge/iso8601) |
 
 Installing iso8601
 ==================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
