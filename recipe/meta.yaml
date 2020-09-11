@@ -26,7 +26,7 @@ test:
     - iso8601
 
 about:
-  home: https://bitbucket.org/micktwomey/pyiso8601
+  home: https://github.com/micktwomey/pyiso8601
   license: MIT
   license_file: LICENSE
   summary: Simple module to parse ISO 8601 dates
