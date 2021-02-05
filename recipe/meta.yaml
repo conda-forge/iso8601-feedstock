@@ -16,12 +16,15 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
     - setuptools
   run:
-    - python
+    - python >=2.7
 
 test:
+  requires:
+    - pytest
+  commands: pytest --pyargs iso8601
   imports:
     - iso8601
 
