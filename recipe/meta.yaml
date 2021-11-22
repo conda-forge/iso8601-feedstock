@@ -1,5 +1,5 @@
 {% set name = "iso8601" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/iso8601-{{ version }}.tar.gz
-  sha256: 79ec9749f8bf35ffae77f835e80e96d2f95affa0f79d3d7b25c0fa7e06207a8b
+  sha256: 02b1c8683bd9c3a3ea381de89c3788cf0e6562dd1eb1e160e8f68141ac08ba90
 
 build:
   number: 0
