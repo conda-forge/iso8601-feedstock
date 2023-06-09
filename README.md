@@ -1,11 +1,11 @@
-About iso8601
-=============
+About iso8601-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iso8601-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/micktwomey/pyiso8601
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iso8601-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple module to parse ISO 8601 dates
 
